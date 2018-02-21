@@ -1,0 +1,2 @@
+git remote add origin git@github.com:hahaok/url.git
+git push -u origin master
