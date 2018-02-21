@@ -18,16 +18,7 @@ class NextSpider(scrapy.Spider):
 "authorization": "Bearer Mi4xbVlYNUFBQUFBQUFBMEd4dkpJNGlEUmNBQUFCaEFsVk5ydEZ1V3dESlVoY3RRMUczVnJKbUtmb1lLQUhfZlgyaUh3|1518437294|599da5070c62457bb7a69f82e45e129fb803cc78",
                                                                                                    "Connection":"keep-alive",
     }
-    cookies={"zap":"86a160df-ce93-40fb-9eea-cd6b26824a95",
-              "q_c1":"a127521c1e874311b22bc6adb6e5acba|1516953271000|1516953271000",
-"capsion_ticket":"2|1:0|10:1518437271|14:capsion_ticket|44:NGJkYTJhNzc1OTdmNGJlYjg4NzdkMzVkMjEzMzExNmY=|b962566caabeabaaae6f5a1e64c8fb55f4177ad702c5f667e38f89d0ba890b29",
-"r_cap_id":"Nzg1NjMwYjRmMzc4NGEwOTg0YjJjY2JmOGRjODY0Mjk=|1518437273|52d0b7f5759da05630dbb416a9eab998039eac26",
-"cap_id":"MGIwMDMzZjYxZWY4NDlhZDk3YWJjOTRmYTM5Y2Y4Yzg=|1518437273|b4b0db989db8301d2539cb0aa1a040f973340815",
-"l_cap_id":"OTM0ODMzNDA5MWE0NDgyZDhiOWExNGUxOGYzMTI2OWQ=|1518437273|f6001da248a892fadf5d355cb918c68456772e0e",
-"z_c0":"Mi4xbVlYNUFBQUFBQUFBMEd4dkpJNGlEUmNBQUFCaEFsVk5ydEZ1V3dESlVoY3RRMUczVnJKbUtmb1lLQUhfZlgyaUh3|1518437294|599da5070c62457bb7a69f82e45e129fb803cc78",
-"aliyungf_tc":"AQAAANgTyCBxVQQAWA4jbx8frXDxuthp",
-"d_c0":"AAAtgc1lLA2PTpSFekS8I-WLyw6fVnJDIZw=|1519097776",
-"_xsrf":"10e82636-c275-48ac-85f3-a6cc25d13f6d"}
+
 
     def start_requests(self):
         for url in self.urls:
